@@ -128,7 +128,3 @@ BUILD_EXE.bat  Builds DEPLOY\SupermartPOS\supermart_pos.exe
 - Row-level security policies are in `supabase/04_rls_policies.sql` and `supabase/09_security_hardening.sql`.
 - Destructive reset scripts are deliberately not included in this repository.
 - If a key is ever exposed, rotate it in Supabase → Settings → API, then rebuild the app.
-
-## License
-
-No license is specified yet. All rights are reserved by the author until one is added.
