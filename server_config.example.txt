@@ -1,0 +1,12 @@
+# ---------------------------------------------------------------
+#  Copy this file to server_config.txt, paste TWO values from your
+#  Supabase project, save, then double-click BUILD_EXE.bat
+#
+#  Where to find them:  Supabase > your project > Settings > API
+#    * Project URL          -> SB_URL
+#    * anon public key      -> SB_KEY
+#
+#  Never commit server_config.txt (it is git-ignored).
+# ---------------------------------------------------------------
+SB_URL=https://YOUR-PROJECT-REF.supabase.co
+SB_KEY=YOUR-ANON-PUBLIC-KEY

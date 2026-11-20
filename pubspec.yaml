@@ -1,0 +1,34 @@
+name: supermart_pos
+description: "Supermart POS - supermarket billing, stock and staff management for 4 tills on one live database."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.2 <4.0.0"
+
+dependencies:
+  barcode: ^2.2.0
+  barcode_widget: ^2.0.4
+  excel: ^4.0.0
+  ffi: ^2.2.0
+  file_picker: ^10.3.0
+  flutter:
+    sdk: flutter
+  intl: ^0.20.3
+  path_provider: ^2.1.6
+  pdf: ^3.12.0
+  printing: ^5.14.3
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.5
+  supabase_flutter: ^2.17.2
+  uuid: ^4.6.0
+  win32: ^5.15.0
+  window_manager: ^0.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
